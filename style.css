@@ -33,17 +33,26 @@ header {
 
 header img {
     height: 80px;
+    transition: all 400ms;
+
+}
+
+header img:hover,
+nav a:hover{
+    transform: scale(1.20);
 }
 
 nav {
     display: flex;
-    gap: 32px;
+    gap: 42px;
 }
 
 nav a{
     color: var(--fc-text1);
-    font-weight: 400;
-    font-size: 18px;
+    font-weight: 300;
+    font-size: 16px;
+
+    transition: all 400ms;
 }
 
 main {
@@ -80,7 +89,7 @@ main section div h2{
 
 button{
     background-color: var(--bg-buttom);
-    width: 180px;
+    width: 140px;
     height: 65px;
     border: none;
     border-radius: 20px;
@@ -89,7 +98,8 @@ button{
 
     color: --fc-text-button;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 18px;
+
 }
 
 button:hover{
